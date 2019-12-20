@@ -12,9 +12,10 @@ import mysql from 'mysql';
 //dab connection
 
 const mysqlConnection = mysql.createConnection({
-  host:"localhost",
-  user:"root",
-  password:"",
+  host:"10.0.2.192",
+  port:"3306",
+  user:"testuser",
+  password:"password",
   database:"test"
 });
 
