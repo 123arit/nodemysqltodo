@@ -13,7 +13,7 @@ import mysql from 'mysql';
 
 const mysqlConnection = mysql.createConnection({
   host:"10.0.2.192",
-  port:"3306",
+  port:3306,
   user:"testuser",
   password:"password",
   database:"test"
